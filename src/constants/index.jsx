@@ -5,6 +5,8 @@ import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
 
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
 import user3 from "../assets/profile-pictures/user3.jpg";
@@ -13,110 +15,108 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Features", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  // { label: "Home", href: "/" },
+  // { label: "Contact Us", href: "/contact-us" },
 ];
 
 export const testimonials = [
   {
-    user: "John Doe",
-    company: "Stellar Solutions",
+    user: "Rahul Verma",
+    company: "Stock Mastery Pvt Ltd",
     image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    text: "I am extremely satisfied with the courses provided. The team was responsive, professional, and delivered content beyond my expectations.",
   },
   {
-    user: "Jane Smith",
-    company: "Blue Horizon Technologies",
+    user: "Priya Sharma",
+    company: "TradePro Academy",
     image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: "I couldn't be happier with the outcome of the training. The team's expertise and teaching methods were instrumental in enhancing my trading skills.",
   },
   {
-    user: "David Johnson",
-    company: "Quantum Innovations",
+    user: "Amit Kumar",
+    company: "InvestSmart Institute",
     image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking to learn trading.",
   },
   {
-    user: "Ronee Brown",
-    company: "Fusion Dynamics",
+    user: "Sneha Patel",
+    company: "Market Wizards",
     image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+    text: "Working with the team at ShareKhan Trading was a game-changer for my trading journey. Their attention to detail and innovative teaching methods helped me achieve my goals faster than I thought possible. I am grateful for their expertise and professionalism!",
   },
   {
-    user: "Michael Wilson",
-    company: "Visionary Creations",
+    user: "Arjun Singh",
+    company: "TradeVision Institute",
     image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
+    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed my expectations and deliver outstanding results in my trading education.",
   },
   {
-    user: "Emily Davis",
-    company: "Synergy Systems",
+    user: "Neha Gupta",
+    company: "Synergy Trading Academy",
     image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    text: "The team went above and beyond to ensure my success in trading. Their expertise and dedication are unmatched. I look forward to learning from them again in the future.",
   },
 ];
 
 export const features = [
   {
-    icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    icon: <LocationOnIcon />,
+    text: "Location",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Near Jivan Deep lab, Kharkhoda thana kalan road, \n LATITUDE:28.876600 LONGITUDE:76.911360",
   },
   {
     icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    text: "Personalized Coaching",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Receive tailored guidance from expert traders to help you improve your trading strategies.",
   },
   {
     icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    text: "Comprehensive Market Analysis",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Access detailed market reports and analysis to stay ahead of the trends and make informed decisions.",
   },
   {
     icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    text: "Real-Time Trading Simulator",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Practice trading in a risk-free environment with our real-time market simulator.",
   },
   {
     icon: <PlugZap />,
-    text: "Collaboration Tools",
+    text: "Community Support",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Join a vibrant community of traders to share insights, ask questions, and collaborate.",
   },
   {
     icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    text: "Progress Tracking",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Monitor your progress with our integrated analytics dashboard, helping you identify strengths and areas for improvement.",
   },
 ];
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Learn Trading with Ease",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Our platform simplifies complex trading concepts, making it easy for beginners to grasp and apply trading strategies. ",
   },
   {
-    title: "Review code without worry",
+    title: "Comprehensive Market Analysis",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Stay ahead of the market with our in-depth analysis tools. Gain valuable insights into market trends, price movements, and trading opportunities.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "Pro-Powered Trading Insights",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Leverage our advanced tools to enhance your trading skills. Get smart recommendations, automated trading signals, and personalized strategies that save you time and help you maximize your profits.",
   },
   {
-    title: "Share work in minutes",
+    title: "Collaborate with Experts",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Join a community of seasoned traders and industry experts. Share your progress, seek advice, and learn from the best in the field through our interactive forums and live webinars.",
   },
 ];
 

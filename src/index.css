@@ -8,3 +8,64 @@
   font-family: "Poppins", sans-serif;
   color-scheme: dark;
 }
+
+
+@keyframes float {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+
+  }
+
+}
+
+
+.float-animation {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Define the blinking cursor */
+.typing-text::after {
+  content: '|';
+  animation: blink 1s infinite alternate;
+}
+
+/* Define the typing animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+/* Apply the typing animation to the span */
+.typing-text span {
+  display: inline-block;
+  overflow: hidden;
+  border-right: 2px solid white;
+  /* To simulate the cursor */
+  white-space: nowrap;
+  /* Prevent wrapping */
+  animation: typing 2s steps(20, end) infinite;
+}
+
+/* Define the blinking cursor animation */
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
