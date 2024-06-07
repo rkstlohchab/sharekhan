@@ -4,7 +4,17 @@ const HeroSection = () => {
   return (
     <div className="flex flex-col lg:flex-row items-center mt-6 lg:mt-20">
       <div className="lg:w-1/2 text-center lg:text-left">
-        <h1 className="text-4xl sm:text-6xl lg:text-7xl tracking-wide">
+        <div className="flex justify-between align-baseline">
+          <img
+            src="https://www.sharekhan.com/CmsApp/MediaGalary/images/sharekhanC-202305091628477676473.svg"
+            alt="Logo"
+            className="h-20 w-20 mx-auto "
+          />
+          <p className="text-2xl sm:text-3xl lg:text-4xl font-bold mx-6 lg:mb-8 max-lg:mt-4">
+            Official Franchise of ShareKhan
+          </p>
+        </div>
+        <h1 className="text-4xl sm:text-6xl lg:text-7xl tracking-wide max-lg:mt-7">
           CapitalTrading
           <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
             {" "}

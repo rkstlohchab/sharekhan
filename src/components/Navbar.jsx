@@ -20,7 +20,7 @@ const Navbar = () => {
           <div className="flex items-center flex-shrink-0">
             <img
               className="h-10 w-10 mr-2"
-              src="https://www.sharekhan.com/CmsApp/MediaGalary/images/sharekhanC-202305091628477676473.svg"
+              src={logo}
               alt="Logo"
             />
             <span className="text-xl tracking-tight">CapitalTrading</span>
